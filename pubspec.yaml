@@ -1,0 +1,115 @@
+name: are_mart
+description: "A new Flutter project."
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  get: ^4.7.2
+  url_launcher: ^6.3.1
+  intl: ^0.20.2
+  firebase_storage: ^12.4.3
+  connectivity_plus: ^6.1.3
+  http: ^1.3.0
+  lottie: ^3.3.1
+  get_storage: ^2.1.1
+  logger: ^2.5.0
+  iconsax: ^0.0.8
+  intl_mobile_field: ^1.1.1
+  mobile_number: ^3.0.0
+  permission_handler: ^11.4.0
+  pinput: ^5.0.1
+  firebase_core: ^3.12.0
+  firebase_auth: ^5.5.0
+  geolocator: ^13.0.2
+  google_maps_flutter: ^2.10.0
+  flutter_svg: ^2.0.17
+  carousel_slider: ^5.0.0
+  smooth_page_indicator: ^1.2.1
+  cloud_firestore: ^5.6.5
+  image_picker: ^1.1.2
+  skeletonizer: ^1.4.3
+  animated_custom_dropdown: ^3.1.1
+  cached_network_image: ^3.4.1
+  uuid: ^4.5.1
+  flutter_launcher_icons: ^0.14.3
+  flutter_native_splash: ^2.4.6
+  flutter_screenutil: ^5.9.3
+  package_info_plus: ^8.3.0
+  flutter_staggered_grid_view: ^0.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: false
+  image_path: "assets/logo_splash/logo.png"
+
+flutter_native_splash:
+  color: "#080076"
+  color_dark: "#080076"
+  image: assets/logo_splash/splash.png
+
+  android_12:
+    image: assets/logo_splash/splash.png
+    icon_background_color: "#080076"
+    icon_background_color_dark: "#080076"
+
+  web: false
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/svgs/
+    - assets/lottie/
+    - assets/logo_splash/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # #--------------- LOCAL FONTS ------------------#
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 800
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
